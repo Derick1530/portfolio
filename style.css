@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,100;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;800&family=Poppins:ital,wght@0,400;0,700;1,100;1,800&display=swap");
+
+body {
+  font-family: "Poppins";
+  font-style: normal;
+  margin: 0px;
+  padding: 0px;
+  max-width: 375px;
+}
+
+#header {
+  display: flex;
+  margin-bottom: 20px;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#headline {
+  margin: 0 16px;
+}
+
+#humburger_menu {
+  margin-right: 12px;
+}
+
+#left_logo {
+  background-image: url("../images/image_geometry.png");
+  background-repeat: no-repeat;
+  background-position: top left;
+  width: 111px;
+  height: 74px;
+}
+#me_names {
+  margin-bottom: 20px;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 100%;
+}
+
+#me_descriptions {
+  margin-bottom: 40px;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+}
+#start_collab {
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  background-color: #1a2236;
+}
