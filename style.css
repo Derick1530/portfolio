@@ -17,6 +17,8 @@ body {
 
 #headline {
   margin: 0 16px;
+  display: flex;
+  flex-direction: column;
 }
 
 #humburger_menu {
@@ -42,6 +44,7 @@ body {
 #me_descriptions {
   margin-bottom: 40px;
   line-height: 21px;
+  font-size: 14px;
   letter-spacing: -0.01em;
 }
 
