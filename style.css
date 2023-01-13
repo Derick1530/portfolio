@@ -4,7 +4,6 @@ body {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   max-width: 375px;
-  border: 1px solid red;
 }
 
 a:link {
@@ -78,6 +77,7 @@ a:active {
   color: white;
   text-align: center;
   font-weight: 500;
+  margin-bottom: 40px;
   font-size: 16px;
   line-height: 24px;
   background-color: #1a2236;
@@ -168,4 +168,98 @@ a:active {
 
 .visit_project p {
   text-align: center;
+}
+
+#language_card {
+  background-image: url("../images/tag.png");
+  background-color: #1c528a;
+  background-repeat: no-repeat;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 0 50px;
+  height: 289px;
+  background-position: bottom right;
+}
+
+#framework_card {
+  background-image: url("../images/framework.png");
+  background-color: #e2505c;
+  background-repeat: no-repeat;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 0 50px;
+  height: 289px;
+  background-position: bottom right;
+}
+
+#skills_card {
+  background-image: url("../images/ic_skills.png");
+  background-color: #febf52;
+  background-repeat: no-repeat;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 0 50px;
+  height: 289px;
+  background-position: bottom right;
+}
+
+#language_card h3 {
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+#language_card ul li {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: -0.0525em;
+}
+#language_card ul {
+  margin: 0 16px;
+  padding: 0;
+}
+
+#framework_card h3 {
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+#framework_card ul li {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: -0.0525em;
+}
+#framework_card ul {
+  margin: 0 16px;
+  padding: 0;
+}
+
+#skills_card h3 {
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+#skills_card ul li {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: -0.0525em;
+}
+#skills_card ul {
+  margin: 0 16px;
+  padding: 0;
+}
+
+.tools {
+  margin: 0 16px 50px 0;
+  flex-direction: column;
+  display: flex;
+  gap: 1rem;
 }
