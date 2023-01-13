@@ -112,10 +112,16 @@ If you like this project don't hesitate to give a ⭐️ to this project
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microversein
+I would like to thank thank all of you who take time and visit my portfolio
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FAQ (optional) -->
 
 <!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
