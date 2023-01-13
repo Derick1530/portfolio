@@ -28,8 +28,6 @@
 
 # 📖 My portfolio <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-
 **THis Portfolio** is one of the most important peace of a software developer,
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -46,8 +44,6 @@
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
-> Describe how a new developer could make use of your project.
 
 To get a local copy up and running, follow these steps.
 
@@ -119,8 +115,6 @@ If you like this project don't hesitate to give a ⭐️ to this project
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-> Give credit to everyone who inspired your codebase.
 
 I would like to thank Microversein
 
