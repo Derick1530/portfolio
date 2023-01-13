@@ -29,7 +29,7 @@ a:active {
   align-items: center;
 }
 
-#headline {
+.headline {
   margin: 0 16px;
   display: flex;
   flex-direction: column;
@@ -55,26 +55,49 @@ a:active {
   line-height: 100%;
 }
 
-#me_descriptions {
+.me_descriptions {
   margin-bottom: 40px;
   line-height: 21px;
   font-size: 14px;
   font-weight: 400;
   letter-spacing: -0.01em;
 }
-
-#start_collab {
+#my_link {
   color: white;
   text-align: center;
   padding: 20px;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   background-color: #1a2236;
 }
+#my_cv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  background-color: #1a2236;
+}
+#my_cv img {
+  margin-left: 12px;
+  width: 24px;
+  height: 24px;
+}
 
 #project_header {
   margin: 40px 16px 32px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 100%;
+}
+#about_header {
+  margin: 56px 16px 0 0;
   font-family: "Playfair Display";
   font-style: normal;
   font-weight: 400;
