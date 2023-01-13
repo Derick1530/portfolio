@@ -140,7 +140,7 @@ textarea {
 
 #about_header {
   margin: 56px 16px 0 0;
-  font-family: "Playfair Display" . sans-serif;
+  font-family: "Playfair Display", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 50px;
