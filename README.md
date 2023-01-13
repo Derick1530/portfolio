@@ -28,11 +28,9 @@
 
 # 📖 My portfolio <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-
 **THis Portfolio** is one of the most important peace of a software developer,
 
-## 🛠 Built With <a name="built-with"></a>
+## 🛠 Built With HTML & CSS <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -46,8 +44,6 @@
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
-> Describe how a new developer could make use of your project.
 
 To get a local copy up and running, follow these steps.
 
@@ -79,8 +75,6 @@ navigate to index.html, right click and select run with live server
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
-
-> Mention all of the collaborators of this project.
 
 👤 **Derick Zihalirwa**
 
@@ -120,14 +114,6 @@ If you like this project don't hesitate to give a ⭐️ to this project
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank Microversein
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
-
-<!-- LICENSE -->
+I would like to thank you for checking up my portfolio
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
