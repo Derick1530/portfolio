@@ -76,8 +76,6 @@ navigate to index.html, right click and select run with live server
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
 👤 **Derick Zihalirwa**
 
 - GitHub: [@derick1530](https://github.com/derick1530)
@@ -106,8 +104,6 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
 If you like this project don't hesitate to give a ⭐️ to this project
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -123,5 +119,3 @@ I would like to thank Microversein
 <!-- FAQ (optional) -->
 
 <!-- LICENSE -->
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
