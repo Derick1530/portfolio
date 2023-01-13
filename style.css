@@ -1,0 +1,377 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;800&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,700;1,100;1,200;1,400;1,800&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  max-width: 375px;
+}
+
+button,
+input[type="submit"] {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+textarea {
+  resize: none;
+  outline: none;
+}
+
+*:focus {
+  outline: none;
+}
+
+#header {
+  display: flex;
+  margin-bottom: 20px;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headline {
+  margin: 0 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+#humburger_menu {
+  margin-right: 12px;
+}
+
+#left_logo {
+  background-image: url("../images/image_geometry.png");
+  background-repeat: no-repeat;
+  background-position: top left;
+  width: 111px;
+  height: 74px;
+}
+
+#me_names {
+  margin-bottom: 20px;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 100%;
+}
+
+.me_descriptions {
+  margin-bottom: 40px;
+  line-height: 21px;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+}
+
+#my_link {
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  background-color: #1a2236;
+}
+
+#my_cv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 40px;
+  font-size: 16px;
+  line-height: 24px;
+  background-color: #1a2236;
+}
+
+.card_container img {
+  width: 100%;
+}
+
+.my_resume_link img {
+  width: 24px;
+  height: 24px;
+}
+
+#my_cv img {
+  margin-left: 12px;
+  width: 24px;
+  height: 24px;
+}
+
+#project_header {
+  margin: 40px 16px 32px;
+  font-family: "Playfair Display", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 100%;
+}
+
+#contact_header {
+  font-family: "Playfair Display", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  padding-top: 106px;
+  line-height: 100%;
+}
+
+#about_header {
+  margin: 56px 16px 0 0;
+  font-family: "Playfair Display", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 100%;
+}
+
+#middle_image {
+  width: 100%;
+}
+
+.middle_section_image {
+  margin-top: 32px;
+}
+
+.description_container {
+  margin-top: -10px;
+  padding: 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: #1a2236;
+  border: 0.333333px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(0.5px);
+}
+
+.description_container h3 {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 80%;
+}
+
+.description_container ul li {
+  list-style-type: none;
+  background-color: #98dede;
+  width: fit-content;
+  color: black;
+  font-weight: 300;
+  margin-right: 10px;
+  font-size: 16px;
+  padding: 5px 8px;
+  line-height: 80%;
+}
+
+.description_container ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+#arrow_left {
+  width: 20px;
+  height: 15px;
+}
+
+.visit_project {
+  display: flex;
+  padding: 0 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  border: 1px solid white;
+  justify-content: space-between;
+  width: 178px;
+  height: 44px;
+  align-items: center;
+}
+
+.visit_project p {
+  text-align: center;
+}
+
+#language_card {
+  background-image: url("../images/tag.png");
+  background-color: #1c528a;
+  background-repeat: no-repeat;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 0 50px;
+  height: 289px;
+  background-position: bottom right;
+}
+
+#framework_card {
+  background-image: url("../images/framework.png");
+  background-color: #e2505c;
+  background-repeat: no-repeat;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 0 50px;
+  height: 289px;
+  background-position: bottom right;
+}
+
+#skills_card {
+  background-image: url("../images/ic_skills.png");
+  background-color: #febf52;
+  background-repeat: no-repeat;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 0 50px;
+  height: 289px;
+  background-position: bottom right;
+}
+
+#language_card h3 {
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+#language_card ul li {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: -0.0525em;
+}
+
+#language_card ul {
+  margin: 0 16px;
+  padding: 0;
+}
+
+#framework_card h3 {
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+#framework_card ul li {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: -0.0525em;
+}
+
+#framework_card ul {
+  margin: 0 16px;
+  padding: 0;
+}
+
+#skills_card h3 {
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+#skills_card ul li {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: -0.0525em;
+}
+
+#skills_card ul {
+  margin: 0 16px;
+  padding: 0;
+}
+
+.tools {
+  margin: 0 16px 50px 0;
+  flex-direction: column;
+  display: flex;
+  gap: 1rem;
+}
+
+#contact {
+  background-color: #f9f9fa;
+  background-repeat: no-repeat;
+  background-size: 111px 74px;
+  background-image: url("../images/image_geometry.png");
+}
+
+#contact-container {
+  margin: 0 16px;
+}
+
+#contact_form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.form_container {
+  display: flex;
+  border-radius: 4px;
+  flex-direction: column;
+  border: 1px solid;
+  padding: 5px;
+}
+
+.form_container:hover {
+  border: 1px solid #1a2236;
+}
+
+.form_container input {
+  background: transparent;
+  border: none;
+  font-size: 16px;
+}
+
+.form_container label {
+  font-size: 10px;
+}
+
+#socials {
+  display: flex;
+  flex-direction: column;
+  padding: 32px 16px;
+  gap: 10px;
+  background-color: #1a2236;
+}
+
+.my_resume_link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.my_resume_link p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #92dcdc;
+}
+
+.social_icons {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
